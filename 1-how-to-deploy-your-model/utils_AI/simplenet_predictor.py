@@ -41,6 +41,3 @@ class SimpleNet_Predictor:
         with torch.no_grad():
             input_data = self.transform(input_data)  # 应用转换
             return self.model(input_data)
-
-
-

@@ -5,7 +5,7 @@ from model.simple_nn import SimpleNet
 import torch
 
 # 设置保存模型参数的文件路径
-path_state_dict = './4_simple_nn_model.pth'
+path_state_dict = '3_simple_nn_model.pth'
 
 # 创建SimpleNet类的实例，这会初始化模型
 model = SimpleNet()

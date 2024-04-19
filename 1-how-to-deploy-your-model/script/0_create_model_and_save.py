@@ -13,9 +13,9 @@ inputs = torch.randn(64, 784)
 # 将输入数据传递给模型，进行一次前向计算，得到输出
 output = model(inputs)
 # 设置保存模型参数的文件路径
-path_state_dict = './4_simple_nn_model.pth'
+path_state_dict = '3_simple_nn_model.pth'
 # 保存模型的参数到文件 'simple_nn_model.pth'
 torch.save(model.state_dict(), path_state_dict)
 
 # 打印消息确认模型参数已经被保存
-print("Model parameters saved to '4_simple_nn_model.pth'")
+print("Model parameters saved to '3_simple_nn_model.pth'")

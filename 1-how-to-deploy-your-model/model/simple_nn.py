@@ -15,4 +15,3 @@ class SimpleNet(nn.Module):
         x = torch.relu(self.fc2(x))
         x = self.fc3(x)
         return torch.log_softmax(x, dim=1)
-
